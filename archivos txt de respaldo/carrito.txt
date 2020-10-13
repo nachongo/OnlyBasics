@@ -1,0 +1,69 @@
+<!DOCTYPE hmtl>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <title>OnlyBasics</title>
+        <meta name="description" content="OnlyBasics" /> 
+        <meta name="autor" content="Nacho"/>
+        <meta name=" keywords" content="desarrollo web, html, etc"/>
+        <link rel="stylesheet" href="style2.css">
+        <link rel="icon" href="Images/icono.ico">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/b5d22e9468.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <header class="headeruno">
+            <h1>OnlyBasics</h1>
+        </header>
+        
+        <nav class="nav-main">
+            <img src="images/Logotipo n°7.png" alt="" class="nav-brand">
+        <ul class="nav-menu">
+        <li>
+            <a href="index.html">Inicio</a>
+            </li>
+        <li>
+            <a href="acerca de nosotros.html">Acerca de Nosotros</a>
+            </li>
+        </ul> 
+        <ul>
+            <li class="carrito">
+                <a href="buycar.html"><i class="fas fa-cart-plus"></i></a> 
+            </li>
+        </ul>
+        </nav>
+        <hr color="black">
+    <div class="formularios">
+        <form action="/my-handling-form-page" method="post">
+            <ul class="formulario">
+                <li>
+                    <input type="text" name="Nombre" required>
+                </li>
+                <li>
+                    <input type="password" name="Contraseña" required>
+                </li>
+                <li>
+                    <input type="email" name="email" required>
+                </li>
+                <li>
+                    <input type="text" name="direccion" required>
+                </li>
+                <li>
+                    <input type="date" name="fechas" required>
+                </li>
+                <li>
+                    <textarea name="Comentarios" id="comentario" cols="20" rows="5"></textarea>
+                </li>
+                <li>
+                    <input type="Submit" name="enviar">
+                </li>
+            </ul>
+        </form>
+    </div>
+        
+        <footer class="derechosreservados">
+            <b>derechos reservados 2019-2020//Desarrolada por ignacio figuera, nicolas robles, micaela villanueva, yanina pereira y brian de jesus.</b>
+        </footer>              
+
+</body>

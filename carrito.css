@@ -1,0 +1,170 @@
+
+.cabeza .header{
+    font-size: 100px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bolder;
+    text-align: left;
+    color: white;
+    background: black;
+    margin: 15px;
+    padding: 2px;
+}
+
+.item {
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.item-title {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 400;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.item-image {
+  height: 300px;
+  width: 80%;
+}
+
+.item-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0px 15px;
+}
+
+.item-details > .item-price {
+  margin: 0;
+}
+
+/* ? SHOPPING CART */
+.shopping-cart-items {
+  padding: 10px 0px;
+}
+
+.shopping-cart-header {
+  border-bottom: 1px solid #ccc;
+}
+
+.shopping-cart-image {
+  max-width: 80px;
+  border-radius: 10px;
+}
+
+.shopping-cart-quantity-input {
+  max-width: 55px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #eee;
+  padding: 5px;
+}
+
+.shopping-cart-total {
+  min-height: 96px;
+}
+
+.item-button
+{
+  background: black;
+  font-size: 15px;
+  border: black;
+}
+
+.nav-main{    
+  text-align: left;
+  font-size: 17px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 45px;
+  padding: 2px 0;
+  margin: 15px;
+}
+.nav-brand{
+  width: 50px;
+}
+
+.nav-main ul{
+  display: flex;
+}
+
+.nav-main li{
+  list-style: none;
+  padding: 5px;
+  display: inline-block;
+  border: 1px solid black;
+  background: #262626;
+  cursor: pointer;
+  margin: 2px;
+}
+
+li.carrito {
+  background: white;
+  padding: 5px;
+  cursor: pointer;
+}
+
+a {
+  background: #262626;
+  color: white;
+}
+a.carrito.html{
+  background: white;
+  padding: 1px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.nav-main li:hover{
+  opacity: .7;
+}
+.nav-main ul.nav-menu {
+  flex: 1;
+  margin-left: 20px; 
+}
+
+.nav-main ul li a:hover{
+  border-bottom: 1px solid black;
+}
+
+button{
+  background: #262626;
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+  font-weight: lighter;
+}
+button:hover{
+  opacity: .6;
+  cursor: pointer;
+}
+
+hr {
+  margin: 15px;
+}
+
+.store {
+  width: 90%;
+  text-align: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 15px;
+}
+
+.carrito{
+  width: 90%;
+  text-align: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 15px;
+}
+
+.derechosreservados {
+  border:2px solid black;
+  clear: both;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+}
